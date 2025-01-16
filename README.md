@@ -4,25 +4,25 @@ This project involves exploring and analyzing a comprehensive database of an art
 
 ## Key objectives include:
 
-    - Identifying artworks not displayed in museums.
-    - Analyzing museum operations and painting details.
-    - Cleaning duplicate records in key tables.
-    - Investigating museum and artwork metadata.
-    - Extracting business-relevant insights, such as the most popular painting styles and artists.
+- Identifying artworks not displayed in museums.
+- Analyzing museum operations and painting details.
+- Cleaning duplicate records in key tables.
+- Investigating museum and artwork metadata.
+- Extracting business-relevant insights, such as the most popular painting styles and artists.
 
 
 ## Dataset Overview
  ### Tables and Row Counts:
-     * artist: 421 rows
-     * canvas_size: 200 rows
-     * image_link: 14,775 rows
-     * museum: 57 rows
-     * museum_hours: 351 rows
-     * subject: 6,284 rows
-     * work: 2,646 rows
-     * product_size: 106,629 rows
+* artist: 421 rows
+* canvas_size: 200 rows
+* image_link: 14,775 rows
+* museum: 57 rows
+* museum_hours: 351 rows
+* subject: 6,284 rows
+* work: 2,646 rows
+* product_size: 106,629 rows
 
-  ### Exploring the dataset
+### Exploring the dataset
 ```sql
 SELECT * FROM artist; 
 SELECT COUNT(*) FROM artist;  -- '421'
